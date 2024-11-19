@@ -1,0 +1,17 @@
+p{
+    color: red;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    background-color: yellow;
+}
+a{
+    color: blue;
+    text-decoration: none;
+    background-color: aqua;
+}
+div, span{
+    color: green;
+    font-size: 30px;
+    font-family: Arial, sans-serif;
+    background-color: pink;
+}
