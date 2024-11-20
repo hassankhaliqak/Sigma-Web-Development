@@ -1,13 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Video 18</title>
+    <title>CSS Box Model - Margin, Padding & Borders</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        p {
+            width: 200px;
+            height: 300px;
+            padding: 15px;
+            border: 10px solid red;
+            margin: 5px;
+        }
+        .box{
+            background:aqua;
+
+        }
+        .box1{
+        color: yellow;
+        padding: 10px;
+        margin: 25px;
+        border: 2px solid blue;
+        height: 200px;
+        box-sizing: border-box;
+
+        }
+        .box2{
+        background: #0f0;
+        padding: 10px;
+        margin: 25px;
+        border: 2px solid rgb(0, 0, 0);
+        height: 200px;
+        box-sizing: border-box;
+        }
+    </style>
 </head>
+
 <body>
     <h1>Welcome to Video 18</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident aperiam itaque officia maiores veniam
+        incidunt, odit cumque veritatis sint nisi aut tempora vero, esse amet dolores nulla totam recusandae voluptas.
+    </p>
+    <div class="box box1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum corrupti vitae totam facere fugit ad quod natus! Autem amet quasi voluptate. Consequuntur dolorem cumque est deserunt, et ab commodi quia?</div>
+    <div class="box box2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium illum assumenda sint pariatur asperiores quaerat nam sit ea nisi repellendus, officia iure ipsum? Deserunt eos ea totam nihil quisquam perferendis?</div>
     <script src="script.js"></script>
 </body>
+
 </html>
