@@ -1,0 +1,30 @@
+.text-center{
+    text-align: center;
+}
+.bg-red{
+    background-color: red;
+}
+.mx-auto{
+    margin:auto;
+}
+.flex{
+    display: flex;
+}
+.flex-col{
+    flex-direction: column;
+}
+.item-center{
+    align-items: center;
+}
+.exp{
+    background-color: #ff9e0a;
+    color: white;
+}
+.number{
+    background-color: #333333;
+    color: white;
+}
+.upper-btn{
+    background-color: #a5a5a5;
+    color: black;
+}
