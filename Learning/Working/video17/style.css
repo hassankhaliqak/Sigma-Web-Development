@@ -5,3 +5,32 @@ body {
     padding: 0;
     text-align: center;
 }
+/* div{
+    background: #f00;
+} */
+.red{
+
+    background: #f00;
+}
+#green{
+    background: #0f0;
+}
+div > p{
+    background: #00f;
+}
+div p{
+    background: #0ff;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+a:visited{
+    color: #f00;
+}
+a:active{
+    color: #0f0;
+}
+a:hover{
+    color: #00f;
+}
